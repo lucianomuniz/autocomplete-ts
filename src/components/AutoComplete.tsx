@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { FaTimes } from 'react-icons/fa';
 
 import { Icon, Item, ItemButton, Text, Wrapper } from '../styles/root';
+import BoldedText from './BoldedText';
 
 const Container = styled.div`
   position: relative;
@@ -93,7 +94,9 @@ const AutoComplete: FC<propsType> = ({ options }) => {
           {selections.map((item: dataType, index) => (
             <Item key={`${index}-${item.city}-${item.state}`}>
               <ItemButton key={item.state} onClick={() => onSelectOption(item)}>
-                {item.city} / {item.state}
+                <BoldedText bolded={search.text}>
+                  {`${item.city} / ${item.state}`}
+                </BoldedText>
               </ItemButton>
             </Item>
           ))}

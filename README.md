@@ -20,7 +20,7 @@ When the application is loaded, it will fetch the data from a json file.
 
 Click on the Input Text field and type a string.
 
-The application will display the suggestions below the input text.
+The application will display the suggestions below the input text, highlight the matching part of the text.
 
 The user can select one of the options or continue typing.
 
