@@ -27,3 +27,7 @@ The user can select one of the options or continue typing.
 If no suggestions is found, the application will display an empty list.
 
 User can click on the X icon to clear the input text and hide the suggestions list.
+
+## Disclaimer
+
+This is a challenge by [Deel](https://www.deel.com).
