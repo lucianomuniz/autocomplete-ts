@@ -26,15 +26,13 @@ Another way is use useRef() instead of useState() hook. With useRef we can track
 
 - Example 1
 
-`function withStyles(Component) {
-return props => {
+`function withStyles(Component) {`
+`return props => {
 const style = { padding: '1rem', margin: '1rem' }
 return <Component style={style} {...props} />
-}
-}
+}}`
 
-const StyledButton = withStyles(Button)
-...`
+`const StyledButton = withStyles(Button)`
 
 - Example 2
 
