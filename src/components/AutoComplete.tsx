@@ -2,7 +2,7 @@ import { useState, ChangeEvent, FC } from 'react';
 import styled from 'styled-components';
 import { FaTimes } from 'react-icons/fa';
 
-import { Icon, Item, ItemButton, Text, Wrapper } from '../styles/root';
+import { Icon, Item, ItemButton, Text, Wrapper } from '../styles/global';
 import BoldedText from './BoldedText';
 
 const Container = styled.div`

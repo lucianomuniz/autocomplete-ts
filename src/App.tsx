@@ -1,6 +1,6 @@
 import AutoComplete from './components/AutoComplete';
 import useFetchData from './hooks/useFetchData';
-import { JSON_FILE } from './utils/constants';
+import { JSON_FILE } from './utils';
 
 const App = () => {
   const jsonFile = JSON_FILE;
