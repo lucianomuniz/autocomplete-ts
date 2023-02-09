@@ -99,7 +99,7 @@ Some ways to add styles in components are:
 
 - Create a style for each component;
 
-- Attach style property to JavaScript style objects;
+- Attach style property to JavaScript style objects.
 
 # 11. How to render an HTML string coming from the server.
 
@@ -107,4 +107,4 @@ The unusual methods to render an HTML string in React are:
 
 - Use dangerouslySetInnerHTML;
 
-- Use regExp and split;
+- Use regExp and split.
