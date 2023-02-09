@@ -16,7 +16,7 @@ You will also see any lint errors in the console.
 
 ## Example of usage
 
-When the application is loaded, it will fetch the data from a json file.
+When the application is loaded, it will fetch the data from a json file placed on `/public/files/data.json`.
 
 Click on the Input Text field and type a string.
 
